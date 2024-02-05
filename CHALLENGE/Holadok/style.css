@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #ffffff;
+  --shade-blue-box: #203271;
+  --shade-blue-font: #101c45;
+  --back-font: #000000;
+  --Green-box: #9beae0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Sans", "Sans Code Pro", sans-serif;
+  background-color: var(--primary-color);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  font-family: "Source Sans 3";
+}
+
+.navbar .logo {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  img {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.navbar .navbar-nav a {
+  display: inline-block;
+  margin-right: 3.125rem;
+  color: rgba(0, 0, 0, 80%);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--shade-blue-font);
+}
+
+.navbar .navbar-extra {
+  display: flex;
+  top: 100%;
+}
+
+.navbar .navbar-extra a {
+  margin-right: 15px;
+  color: var(--shade-blue-font);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.navbar .navbar-extra .book-now {
+  width: 117px;
+  height: 30px;
+  a {
+    padding: 10px 0px 10px 12px;
+  }
+  border: 1px solid var(--shade-blue-box);
+}

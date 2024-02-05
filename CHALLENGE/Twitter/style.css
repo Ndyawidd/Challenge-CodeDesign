@@ -1,0 +1,76 @@
+body {
+    font-family: "Source Sans 3", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #1e1e1e;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    padding: 50%;
+}
+
+.box {
+    width: 601px;
+    height: 228px;
+    background-color: #243447;
+    border-radius: 10px;
+}
+
+
+.img_foto {
+    margin-top: 31px;
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.Name {
+    margin-top: -53px;
+    margin-bottom: -15px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.email {
+    margin-left: 100px;
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.img_twitter {
+    float: right;
+    margin-top: -66px;
+    margin-right: 30px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.caption {
+    font-size: 16;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.img_love {
+    margin-left: 30px;
+    width: 24px;
+    height: 24px;
+}
+
+.like {
+    color: white;
+    margin-left: 60px;
+    margin-top: -29px;
+}
+
+.tgl {
+    color: white;
+    margin-left: 100px;
+    margin-top: -39px;
+}
